@@ -2,9 +2,8 @@
 /**
  * @copyright Copyright (c) 2019 Specialist001
  * @link https://github.com/specialist001/yii2-crop-image-upload
- * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace specialist001\icrop;
+namespace specialist\icrop;
 
 use yii\base\InvalidConfigException;
 use yii\helpers\Html;
@@ -15,7 +14,7 @@ use yii\widgets\InputWidget;
  * CropImageUpload renders a jCrop plugin for image crop.
  * @see http://deepliquid.com/content/Jcrop.html
  * @link https://github.com/specialist001/yii2-crop-image-upload
- * @package specialist001\icrop
+ * @package specialist\icrop
  */
 class CropImageUpload extends InputWidget
 {
