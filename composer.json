@@ -1,5 +1,5 @@
 {
-  "name": "specialist001/yii2-crop-image-upload",
+  "name": "specialist/yii2-crop-image-upload",
   "description": "Yii 2 Crop image upload widget",
   "homepage": "https://github.com/specialist001/yii2-crop-image-upload",
   "license": "MIT",
@@ -14,7 +14,7 @@
   ],
   "autoload": {
 	"psr-4": {
-	  "specialist001\\icrop\\": ""
+	  "specialist\\icrop\\": ""
 	}
   },
   "minimum-stability": "dev",
