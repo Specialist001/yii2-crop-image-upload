@@ -3,16 +3,15 @@
 /**
  * @copyright Copyright (c) 2019 Specialist001
  * @link https://github.com/specialist001/yii2-crop-image-upload
- * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
 
-namespace specialist001\icrop;
+namespace specialist\icrop;
 
 use yii\web\AssetBundle;
 
 class CropImageUploadAsset extends AssetBundle
 {
-	public $sourcePath = '@vendor/specialist001/yii2-crop-image-upload/assets';
+	public $sourcePath = '@vendor/specialist/yii2-crop-image-upload/assets';
 
 	public $depends = [
 		'yii\web\YiiAsset',
