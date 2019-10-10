@@ -17,8 +17,10 @@
 	  "specialist001\\icrop\\": ""
 	}
   },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "require": {
-	"yiisoft/yii2": "*",
+    "yiisoft/yii2": "*",
     "yiisoft/yii2-imagine": "*",
     "mohorev/yii2-upload-behavior": "*"
   }
