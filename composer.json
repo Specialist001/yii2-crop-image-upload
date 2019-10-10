@@ -4,7 +4,6 @@
   "homepage": "https://github.com/specialist001/yii2-crop-image-upload",
   "license": "MIT",
   "type": "yii2-extension",
-  "version": "0.0.2",
   "keywords": ["yii2", "crop", "image", "upload"],
   "authors": [
 	{
