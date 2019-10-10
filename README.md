@@ -1,7 +1,7 @@
 cropped image upload extension for Yii2
 ======================
 
-[![Latest Stable Version](https://poser.pugx.org/specialist001/yii2-crop-image-upload/v/stable.svg)](https://packagist.org/packages/specialist001/yii2-crop-image-upload) [![Total Downloads](https://poser.pugx.org/specialist001/yii2-crop-image-upload/downloads.svg)](https://packagist.org/packages/specialist001/yii2-crop-image-upload) [![Latest Unstable Version](https://poser.pugx.org/specialist001/yii2-crop-image-upload/v/unstable.svg)](https://packagist.org/packages/specialist001/yii2-crop-image-upload) [![License](https://poser.pugx.org/specialist001/yii2-crop-image-upload/license.svg)](https://packagist.org/packages/specialist001/yii2-crop-image-upload)
+[![Latest Stable Version](https://poser.pugx.org/specialist/yii2-crop-image-upload/v/stable.svg)](https://packagist.org/packages/specialist/yii2-crop-image-upload) [![Total Downloads](https://poser.pugx.org/specialist/yii2-crop-image-upload/downloads.svg)](https://packagist.org/packages/specialist/yii2-crop-image-upload) [![Latest Unstable Version](https://poser.pugx.org/specialist/yii2-crop-image-upload/v/unstable.svg)](https://packagist.org/packages/specialist/yii2-crop-image-upload) [![License](https://poser.pugx.org/specialist/yii2-crop-image-upload/license.svg)](https://packagist.org/packages/specialist/yii2-crop-image-upload)
 
 This extension automatically uploads image and make crop.
 
@@ -13,13 +13,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require specialist001/yii2-crop-image-upload "@dev"
+php composer.phar require specialist/yii2-crop-image-upload "@dev"
 ```
 
 or add
 
 ```json
-"specialist001/yii2-crop-image-upload": "@dev"
+"specialist/yii2-crop-image-upload": "@dev"
 ```
 
 to the `require` section of your `composer.json` file.
@@ -32,7 +32,7 @@ Usage
 Attach the behavior in your model:
 
 ```php
-use specialist001\icrop\CropImageUploadBehavior;
+use specialist\icrop\CropImageUploadBehavior;
 
 class Document extends ActiveRecord
 {
@@ -70,7 +70,7 @@ class Document extends ActiveRecord
 Example view file:
 
 ```php
-<?php use specialist001\icrop\CropImageUpload; ?>
+<?php use specialist\icrop\CropImageUpload; ?>
 
 <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]); ?>
     <?= $form->field($model, 'photo')->widget(CropImageUpload::className()) ?>
