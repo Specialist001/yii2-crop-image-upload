@@ -13,13 +13,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist specialist001/yii2-crop-image-upload "*"
+php composer.phar require specialist001/yii2-crop-image-upload "@dev"
 ```
 
 or add
 
 ```json
-"specialist001/yii2-crop-image-upload": "*"
+"specialist001/yii2-crop-image-upload": "@dev"
 ```
 
 to the `require` section of your `composer.json` file.
